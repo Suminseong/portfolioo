@@ -15,6 +15,7 @@ a:hover img{
     -webkit-filter: grayscale(0%);
     filter: none;
     transition: 0.5s;
+    height: 80%;
 }
 
 .carousel-item{
@@ -23,40 +24,63 @@ a:hover img{
     text-align: left;
 }
 
-.item1{
-    background-image: url("https://cdn.mos.cms.futurecdn.net/X5TyA8uvkGXoNyjFzxcowS-1200-80.jpg");
-    background-repeat: no-repeat;
-    background-position: 900px;
-    background-size: 700px 400px;
+/*.item1{*/
+/*    background-image: url("https://cdn.mos.cms.futurecdn.net/X5TyA8uvkGXoNyjFzxcowS-1200-80.jpg");*/
+/*    background-repeat: no-repeat;*/
+/*    background-position: 300px;*/
+/*    background-size: 700px 400px;*/
+/*}*/
 
+.item1 img{
+    /*width: 700px;*/
+    height: 400px;
 }
 
-.item2{
-    background-image: url("https://cdn.thewirecutter.com/wp-content/uploads/2020/04/laptops-lowres-2x1--1024x512.jpg");
-    background-repeat: no-repeat;
-    background-position: 900px;
-    background-size: 700px 400px;
+.item2 img{
+    /*width: 700px;*/
+    height: 400px;
 }
 
-.item3{
-    background-image: url("https://i1.wp.com/www.technpick.com/wp-content/uploads/2019/07/best-gaming-laptop-under-800-dollars.jpg?fit=1920%2C1080&ssl=1");
-    background-repeat: no-repeat;
-    background-position: 900px;
-    background-size: 700px 400px;
+.item3 img{
+    /*width: 700px;*/
+    height: 400px;
 }
 
-.item4{
-    background-image: url("https://cdn.arstechnica.net/wp-content/uploads/2013/01/8770w-angle.jpg");
-    background-repeat: no-repeat;
-    background-position: 900px;
-    background-size: 700px 400px;
+.item4 img{
+    /*width: 700px;*/
+    height: 400px;
 }
+
+/*.item2{*/
+/*    background-image: url("https://cdn.thewirecutter.com/wp-content/uploads/2020/04/laptops-lowres-2x1--1024x512.jpg");*/
+/*    background-repeat: no-repeat;*/
+/*    background-position: 300px;*/
+/*    background-size: 700px 400px;*/
+/*}*/
+
+/*.item3{*/
+/*    background-image: url("https://i1.wp.com/www.technpick.com/wp-content/uploads/2019/07/best-gaming-laptop-under-800-dollars.jpg?fit=1920%2C1080&ssl=1");*/
+/*    background-repeat: no-repeat;*/
+/*    background-position: 300px;*/
+/*    background-size: 700px 400px;*/
+/*}*/
+
+/*.item4{*/
+/*    background-image: url("https://cdn.arstechnica.net/wp-content/uploads/2013/01/8770w-angle.jpg");*/
+/*    background-repeat: no-repeat;*/
+/*    background-position: 300px;*/
+/*    background-size: 700px 400px;*/
+/*}*/
 
 .intro{
-    width: 570px;
+    max-width: 570px;
     display: inline-block;
     vertical-align: middle;
-    margin-left: 300px;
+    padding-left: 15%;
+}
+
+.intro p{
+    width: 400px;
 }
 
 .intro h2{
@@ -158,7 +182,7 @@ h1{
 }
 
 .perform img{
-    height: 100%;
+    height: 80%;
     padding: 0 0 0 80px;
 }
 
@@ -192,7 +216,7 @@ h1{
 }
 
 .price{
-    color: #41464b;
+    color: #5c636a;
     font-size: 14px;
     margin: 10px 0px 5px 20px;
 }
