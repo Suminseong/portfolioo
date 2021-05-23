@@ -1,0 +1,206 @@
+a{
+    text-decoration: none;
+}
+
+a img{
+    -webkit-filter: grayscale(100%);
+    filter: gray;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+a:hover img{
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: 0.5s;
+}
+
+.carousel-item{
+    background-color: #f9f9f9;
+    height: 400px;
+    text-align: left;
+}
+
+.item1{
+    background-image: url("https://cdn.mos.cms.futurecdn.net/X5TyA8uvkGXoNyjFzxcowS-1200-80.jpg");
+    background-repeat: no-repeat;
+    background-position: 900px;
+    background-size: 700px 400px;
+
+}
+
+.item2{
+    background-image: url("https://cdn.thewirecutter.com/wp-content/uploads/2020/04/laptops-lowres-2x1--1024x512.jpg");
+    background-repeat: no-repeat;
+    background-position: 900px;
+    background-size: 700px 400px;
+}
+
+.item3{
+    background-image: url("https://i1.wp.com/www.technpick.com/wp-content/uploads/2019/07/best-gaming-laptop-under-800-dollars.jpg?fit=1920%2C1080&ssl=1");
+    background-repeat: no-repeat;
+    background-position: 900px;
+    background-size: 700px 400px;
+}
+
+.item4{
+    background-image: url("https://cdn.arstechnica.net/wp-content/uploads/2013/01/8770w-angle.jpg");
+    background-repeat: no-repeat;
+    background-position: 900px;
+    background-size: 700px 400px;
+}
+
+.intro{
+    width: 570px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 300px;
+}
+
+.intro h2{
+    font-size: 44px;
+    font-weight: 400;
+    color: #1c1f23;
+    margin: 0 0 20px 0;
+}
+
+.intro .herotext{
+    font-size: 16px;
+    font-weight: 100;
+    color: #1c1f23;
+    margin-bottom: 56px;
+    margin-top: 0;
+}
+
+.intro a{
+    display: block;
+    width: 145px;
+    font-size: 12px;
+    color: #fdfdfe;
+    margin-top: 56px;
+    padding: 13px 41px;
+    border-radius: 20px;
+    background-color: #212529;
+}
+
+.l{
+    float: right;
+}
+
+.clear{
+    clear: both;
+}
+
+.helper{
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.container{
+    margin-top: 0px;
+}
+
+.menumenu{
+    display: block;
+    margin-top: 30px;
+}
+
+.headline{
+    display: block;
+    height: 180px;
+    background-color: #fdfdfd;
+    padding: 20px 40px 0 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px -6px #41464b;
+}
+
+.headline h2{
+    display: block;
+    font-size: 26px;
+    margin: 0 0 15px 0;
+    font-weight: 400;
+    color: #727272;
+}
+
+.headline p{
+    display: block;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #6f6f6f;
+}
+
+
+/*--------------------------------상품-------------------------*/
+
+h1{
+    width: 300px;
+    text-align: center;
+    font-size: 37px;
+    font-weight: 100;
+    color: #323539;
+    margin: 100px auto 70px auto;
+    padding: 30px 0px;
+    border-bottom: #e8e8e8   1px solid;
+}
+
+.perform{
+    margin-top: 19px;
+    display: block;
+    height: 180px;
+    background-color: #ffffff;
+    padding: 0px 40px 0 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px -6px #41464b;
+    position: relative;
+}
+
+.perform img{
+    height: 100%;
+    padding: 0 0 0 80px;
+}
+
+.perform h5{
+    display: block;
+    font-size: 15px;
+    margin: 93px 0 5px 0;
+    font-weight: 400;
+    color: #727272;
+}
+
+.perform h2{
+    display: block;
+    font-size: 15px;
+    margin: 0px 0 7px 0;
+    font-weight: 400;
+    color: #727272;
+}
+
+.perform p{
+    display: block;
+    font-size: 13px;
+    font-weight: lighter;
+    color: #6f6f6f;
+}
+
+.imgtxt{
+    position: absolute;
+    left: 20px;
+    bottom: 0;
+}
+
+.price{
+    color: #41464b;
+    font-size: 14px;
+    margin: 10px 0px 5px 20px;
+}
+
+/*-------------------------------푸터---------------------*/
+
+
+.footer-txt{
+    margin-top: 15px;
+    font-size: 13px;
+}
