@@ -21,6 +21,9 @@ a:hover img{
     transition: 0.5s;
     height: 80%;
 }
+.navbar-nav{
+    margin-left: auto;
+}
 
 .carousel-item{
     background-color: #f9f9f9;
@@ -37,21 +40,25 @@ a:hover img{
 
 .item1 img{
     /*width: 700px;*/
+    width: 800px;
     height: 400px;
 }
 
 .item2 img{
     /*width: 700px;*/
+    width: 800px;
     height: 400px;
 }
 
 .item3 img{
     /*width: 700px;*/
+    width: 800px;
     height: 400px;
 }
 
 .item4 img{
     /*width: 700px;*/
+    width: 800px;
     height: 400px;
 }
 
