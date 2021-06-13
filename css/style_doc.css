@@ -14,7 +14,15 @@ html body{
     color: #41464b;
 }
 
+.navbar-nav{
+    margin-left: auto;
+}
 
+.carousel-item{
+    background-color: #f9f9f9;
+    height: 400px;
+    text-align: left;
+}
 
 
 .heroimg{
