@@ -2,6 +2,10 @@ html body{
     font-family: "Spoqa Han Sans Neo Regular";
 }
 
+p{
+    color: #1c1f23;
+}
+
 /*a{*/
 /*    text-decoration: none;*/
 /*}*/
@@ -229,10 +233,13 @@ html body{
   }
 
   .content-box-left-title strong{
-    color: #084298;
     display: block;
       font-size: 36px;
       margin-bottom: 10px;
+  }
+
+  strong{
+      color: #0066cc;
   }
 
   .infobox{
