@@ -1,0 +1,257 @@
+html body{
+    font-family: "Spoqa Han Sans Neo Regular";
+}
+
+
+
+.body{
+    width: 1600px;
+    margin: auto;
+}
+
+
+.v-pills-home-tab{
+    color: #41464b;
+}
+
+
+
+
+.heroimg{
+    display: block;
+    background-image: url("https://laptopsreviewer.com/wp-content/uploads/2021/01/Intel-Tiger-Lake-U-CPUs_Official.jpg");
+    width: 1600px;
+    height: 600px;
+    margin: auto;
+    background-size: 900px 600px;
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-bottom: 80px;
+    background-color: #fafafa;
+}
+
+
+.txtbox{
+
+    height: 600px;
+    padding: 190px 30px;
+    vertical-align: center;
+}
+
+.txtbox h2, p{
+    vertical-align: center;
+}
+
+.txtbox h2{
+    color: #212122;
+    font-size: 72px;
+    margin-bottom: 48px;
+}
+
+.txtbox p{
+    font-size: 22px;
+    color: #555555;
+}
+
+.l200line{
+    width: 200px;
+    height: 4px;
+    border-radius: 2px;
+    border: #ced4da solid 2px;
+    margin: 50px auto;
+    box-sizing: border-box;
+    color: #ced4da;
+}
+
+.contain{
+    margin: 50px 100px;
+
+}
+
+
+.container {
+  max-width: 85em;
+  margin: auto;
+}
+
+.container > input[type="radio"] {
+  position: absolute;
+  left: -200vw;
+}
+
+.container > label {
+  position: relative;
+  display: inline-block;
+    width: 125px;
+    margin: 0 0 0 15em;
+  padding: 15px 15px 25px 25px;
+  border: 1px solid transparent;
+  border-bottom: 0;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.container > label::after {
+  content: "";
+  position: absolute;
+  left: 25px;
+  bottom: 10px;
+  width: 22px;
+  height: 4px;
+  background: #8d8d8d;
+}
+
+.container > label:hover, .container > input:focus + label {
+  color: #06c;
+}
+
+.container > label:hover::after, .container > input:focus + label::after, .container > input:checked + label::after {
+  background: #06c;
+}
+
+.container > input:checked + label {
+  border-color: #ccc;
+  border-bottom: 1px solid #fff;
+  margin-bottom: -1px;
+}
+
+.tab-content {
+  border-top: 1px solid #ccc;
+}
+
+.tab-content section.tab-panel {
+  padding: 30px 0;
+}
+
+/* The magic */
+.container section.tab-panel {
+  display: none;
+}
+
+.container > input:first-child:checked ~ .tab-content > section.tab-panel:first-child, .container > input:nth-child(3):checked ~ .tab-content > section.tab-panel:nth-child(2), .container > input:nth-child(5):checked ~ .tab-content > section.tab-panel:nth-child(3) {
+  display: block;
+}
+
+.cpu{
+    padding-left: 20px;
+    padding-right: 25px;
+    margin-top: 35px;
+}
+
+.cpu-l h1{
+    color: #0066cc;
+    text-align: left;
+    font-size: 60px;
+    margin-bottom: 25px;
+}
+
+.cpu-l h4{
+    text-align: left;
+    font-size: 31px;
+    margin-bottom: 15px;
+}
+
+.cpu-l p{
+    text-align: justify;
+}
+
+.gpu-l h1{
+    color: #e74c3c;
+    text-align: left;
+    font-size: 60px;
+    margin-bottom: 25px;
+}
+
+.gpu-l h4{
+    text-align: left;
+    font-size: 31px;
+    margin-bottom: 15px;
+}
+
+.gpu-l p{
+    text-align: justify;
+}
+
+.cpu-r{
+    position: absolute;
+}
+
+.cpu-r img{
+    position: relative;
+    width: 400px;
+    left: 0px;
+
+}
+
+.line{
+    position: relative;
+    width: 700px;
+    height: 2px;
+    color: #1c1f23;
+    border: #06c solid 1px;
+    right: 44em;
+    top: 1.7em;
+}
+
+.line-gpu{
+    position: relative;
+    width: 700px;
+    height: 2px;
+    color: #e74c3c;
+    border: #e74c3c solid 1px;
+    right: 44em;
+    top: 1.7em;
+}
+
+h3{
+    text-align: center;
+    font-size: 31px;
+    margin-bottom: 35px;
+}
+
+.border100{
+    width: 100px;
+    height: 3px;
+    border-radius: 1.5px;
+    border: #ced4da solid 2px;
+    margin: 80px auto;
+    box-sizing: border-box;
+    color: #ced4da;
+}
+
+.expl-c{
+    width: 900px;
+    margin: 25px auto 15px auto;
+    text-align: center;
+}
+
+.spec{
+    width: 650px;
+    margin: auto;
+    -webkit-filter: grayscale(50%);
+}
+
+.spec-ram{
+    width: 350px;
+    margin: auto;
+    -webkit-filter: grayscale(50%);
+}
+
+.ramram{
+    width: 350px;
+    height: 350px;
+    margin: auto;
+    text-align: center;
+}
+
+.outer{
+    font-size: 6px;
+}
+
+.explain li{
+    margin-bottom: 26px;
+}
+
+.explain{
+    margin-top: 80px;
+}
