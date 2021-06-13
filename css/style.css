@@ -1,10 +1,14 @@
+html body{
+    font-family: "Spoqa Han Sans Neo Regular";
+}
+
 a{
     text-decoration: none;
 }
 
 a img{
     -webkit-filter: grayscale(100%);
-    filter: gray;
+    /*filter: gray;*/
 }
 
 a:hover{
@@ -124,17 +128,29 @@ a:hover img{
 }
 
 .container{
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 .menumenu{
     display: block;
     margin-top: 30px;
+    max-height: 200px;
+}
+
+.menuimg img{
+    display: inline-block;
+    float: left;
+    position: relative;
+    height: 200px;
+    top: 10px;
+
 }
 
 .headline{
+    float: left;
     display: block;
     height: 180px;
+    width: 300px;
     background-color: #fdfdfd;
     padding: 20px 40px 0 20px;
     border-radius: 10px;
@@ -157,6 +173,216 @@ a:hover img{
 }
 
 
+
+
+
+
+/*----------------------------cont----------------------------*/
+
+
+
+
+
+
+ .body-cont{
+    display: block;
+    width: 1120px;
+    margin: 54px auto 40px auto;
+
+  }
+
+  .content-box{
+    width: 1120px;
+    height: 440px;
+    padding-bottom: 35px;
+    border-bottom: rgb(239, 239, 239) solid 1px;
+    display: block;
+  }
+
+  .content-box-left{
+    float: right;
+    display: block;
+    margin-top: -3px;
+    padding-right: 9px;
+      padding-top: 60px;
+      text-align: justify;
+  }
+
+  .content-box-left-title{
+    display: block;
+    font-size: 26px;
+    color: rgb(51, 51, 51);
+    letter-spacing: -0.2px;
+    margin: 34px 0px 20px 0px;
+    font-style: normal;
+  }
+
+  .content-box-left-title strong{
+    color: #084298;
+    display: block;
+      font-size: 36px;
+      margin-bottom: 10px;
+  }
+
+  .infobox{
+    display: block;
+    width: 681px;
+    height: 133px;
+  }
+
+  .infobox p{
+      width: 100%;
+      padding-right: 20px;
+  }
+
+  .content-box-left-logo{
+    margin-right: 28px;
+    float: left;
+    display: block;
+  }
+
+  .content-box-left-service{
+
+  }
+
+  .content-box-left-service li{
+    float: left;
+    margin-right: 30px;
+  }
+
+  .content-box-left .info{
+    float: left;
+    display: block;
+  }
+
+
+    .content-box-left-rv .info{
+    float: left;
+    display: block;
+  }
+
+
+
+
+  .info{
+    margin-bottom: 25px;
+      width: 680px;
+  }
+
+  .info p{
+    margin: 0px 0px 25px 0px;
+    font-size: 15px;
+    font-family: 'NanumSquare';
+  }
+
+  .content-box-right{
+    display: inline-block;
+    width: 400px;
+    position: relative;
+  }
+
+  .content-box-right:hover{
+      opacity: 0.75;
+      transition: 0.2s;
+  }
+
+  .content-box-left-rv{
+      float: left;
+      display: inline-block;
+    position: relative;
+      padding-top: 60px;
+  }
+
+  .content-box-right-rv{
+    display: inline-block;
+    margin-top: -3px;
+    padding-right: 9px;
+      padding-top: 60px;
+      text-align: justify;
+  }
+  .content-box-right-rv:hover{
+      opacity: 0.75;
+      transition: 0.2s;
+  }
+
+
+
+  .main-image{
+      overflow: hidden;
+    display: inline-block;
+    position: absolute;
+    /*box-shadow: 10px 10px 15px 1px rgba(51, 51, 51, 0.1);*/
+      height: 330px;
+      right: 72px;
+      top: 65px
+  }
+
+  .sub-image{
+      overflow: hidden;
+    display: inline-block;
+    position: absolute;
+    top: -40px;
+    left: 40px;
+    z-index: -1;
+    box-shadow: 10px 10px 15px 1px rgba(51, 51, 51, 0.1);
+      width: 223px;
+      height: 396px;
+  }
+
+  .main-image2{
+      overflow: hidden;
+    display: inline-block;
+    position: absolute;
+      top: 150px;
+    /*box-shadow: 10px 10px 15px 1px rgba(51, 51, 51, 0.1);*/
+      width: 270px
+  }
+
+  .sub-image2{
+      overflow: hidden;
+    display: inline-block;
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    z-index: -1;
+    /*box-shadow: 10px 10px 15px 1px rgba(51, 51, 51, 0.1);*/
+      width: 310px;
+      opacity: 0.8;
+  }
+
+  .main-image3{
+      overflow: hidden;
+    display: inline-block;
+    position: absolute;
+      top: 130px;
+    /*box-shadow: 10px 10px 15px 1px rgba(51, 51, 51, 0.1);*/
+      width: 360px
+  }
+
+  .sub-image3{
+      overflow: hidden;
+    display: inline-block;
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    z-index: -1;
+    /*box-shadow: 10px 10px 15px 1px rgba(51, 51, 51, 0.1);*/
+      width: 310px;
+      opacity: 0.8;
+  }
+
+  .notebook-image{
+      z-index: 999;
+      position: absolute;
+      display: inline-block;
+      width: 300px;
+      overflow: hidden;
+      top: 200px;
+      right: 30px;
+  }
+
+
+
 /*--------------------------------상품-------------------------*/
 
 h1{
@@ -166,7 +392,7 @@ h1{
     font-weight: 100;
     color: #323539;
     margin: 100px auto 70px auto;
-    padding: 30px 0px;
+    padding: 30px 0;
     border-bottom: #e8e8e8   1px solid;
 }
 
@@ -175,7 +401,7 @@ h1{
     display: block;
     height: 180px;
     background-color: #ffffff;
-    padding: 0px 40px 0 20px;
+    padding: 0 40px 0 20px;
     border-radius: 10px;
     box-shadow: 2px 2px 8px -6px #41464b;
     position: relative;
@@ -197,7 +423,7 @@ h1{
 .perform h2{
     display: block;
     font-size: 15px;
-    margin: 0px 0 7px 0;
+    margin: 0 0 7px 0;
     font-weight: 400;
     color: #727272;
 }
@@ -218,7 +444,7 @@ h1{
 .price{
     color: #5c636a;
     font-size: 14px;
-    margin: 10px 0px 5px 20px;
+    margin: 10px 0 5px 20px;
 }
 
 /*-------------------------------푸터---------------------*/
